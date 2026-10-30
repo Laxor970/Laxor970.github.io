@@ -1,0 +1,30 @@
+# Site settings. Edit, commit, and GitHub Pages rebuilds in a minute or two.
+title: Laxor
+description: Game developer building a Roblox game, a Godot platformer and free pixel-art tools.
+url: "https://laxor970.github.io"
+baseurl: ""
+author: Laxor
+
+# Top menu. Add a page by creating a .md file (see about.md) and listing it here.
+nav:
+  - label: Projects
+    url: /#projects
+  - label: About
+    url: /about/
+
+# Links shown in the menu bar's right side and the footer. Delete a line to hide it.
+links:
+  - label: GitHub
+    url: https://github.com/laxor970
+
+markdown: kramdown
+
+# Every .md file uses the "page" layout unless it says otherwise in its own front matter.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
